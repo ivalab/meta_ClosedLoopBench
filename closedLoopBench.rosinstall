@@ -2,30 +2,30 @@
 
 - git:
     local-name: vision_opencv
-    uri: 'git@github.gatech.edu:VSLAM/vision_opencv.git'
+    uri: 'https://github.com/ivalab/vision_opencv.git'
     version: kinetic
 - git:
     local-name: ORB_Data
-    uri: 'git@github.gatech.edu:VSLAM/ORB_Data.git'
+    uri: 'https://github.com/ivalab/ORB_Data.git'
     version: master
 - git:
     local-name: gf_orb_slam2
-    uri: 'git@github.gatech.edu:VSLAM/GF_ORB_SLAM2.git'
+    uri: 'https://github.com/ivalab/gf_orb_slam2.git'
     version: catkin
 
 # Core Sensor Fusion repos
     
 - git:
     local-name: delayed_odometry
-    uri: 'git@github.gatech.edu:ivabots/delayed_odometry.git'
+    uri: 'https://github.com/ivalab/delayed_odometry.git'
     version: master
 - git:
     local-name: ethzasl_msf
-    uri: 'git@github.gatech.edu:VSLAM/ethzasl_msf.git'
+    uri: 'https://github.com/ivalab/ethzasl_msf.git'
     version: master
 - git:
     local-name: odometry_converter
-    uri: 'git@github.gatech.edu:VSLAM/odometry_converter.git'
+    uri: 'https://github.com/ivalab/odometry_converter.git'
     version: master
 - git:
     local-name: glog_catkin
@@ -40,21 +40,21 @@
 
 - git:
     local-name: tsrb_world
-    uri: 'git@github.gatech.edu:VSLAM/tsrb_world.git'
+    uri: 'https://github.com/ivalab/tsrb_world.git'
     version: master
 - git:
     local-name: gazebo_turtlebot_simulator
-    uri: 'git@github.gatech.edu:VSLAM/gazebo_turtlebot_simulator.git'
+    uri: 'https://github.com/ivalab/gazebo_turtlebot_simulator.git'
     version: master
 - git:
     local-name: gazebo_utils
-    uri: 'git@github.gatech.edu:ivabots/gazebo_utils.git'
+    uri: 'https://github.com/ivalab/gazebo_utils.git'
     version: master
 - git:
     local-name: turtlebot
-    uri: 'git@github.com:YipuZhao/turtlebot.git'
+    uri: 'https://github.com/ivalab/turtlebot.git'
     version: kinetic
 - git:
     local-name: kobuki
-    uri: 'git@github.com:YipuZhao/kobuki.git'
+    uri: 'https://github.com/ivalab/kobuki.git
     version: kinetic
