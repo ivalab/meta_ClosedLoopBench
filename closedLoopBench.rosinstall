@@ -56,5 +56,5 @@
     version: kinetic
 - git:
     local-name: kobuki
-    uri: 'https://github.com/ivalab/kobuki.git
+    uri: 'https://github.com/ivalab/kobuki.git'
     version: kinetic
