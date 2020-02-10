@@ -12,14 +12,6 @@
     local-name: gf_orb_slam2
     uri: 'https://github.com/ivalab/gf_orb_slam2.git'
     version: catkin
-- git:
-    local-name: msckf_vio
-    uri: 'https://github.com/YipuZhao/msckf_vio.git'
-    version: master
-- git:
-    local-name: VINS-Fusion
-    uri: 'https://github.com/YipuZhao/VINS-Fusion.git'
-    version: master
 
 # Core Sensor Fusion repos
     

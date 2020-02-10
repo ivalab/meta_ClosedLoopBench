@@ -39,7 +39,27 @@ rosdep install --from-paths src -i -y
 
 ### Set up the simulator
 
-TBD
+Refer to the README.md at 	
+```
+https://github.com/ivalab/gazebo_turtlebot_simulator
+```
+
+### VI-SLAM systems
+
+By default GF+MSF is included in the meta repo.  Other VI-SLAM systems that has been plugged into the framework include:
+1. msckf_vio 
+```
+git clone https://github.com/YipuZhao/msckf_vio.git
+```
+2. VINS-Fusion
+```
+git clone https://github.com/YipuZhao/VINS-Fusion.git
+```
+3. SVO
+```
+git clone https://github.com/YipuZhao/rpg_svo_example
+```
+It also requires the svo binary, which can be downloaded via http://rpg.ifi.uzh.ch/svo2.html
 
 
 ### Benchmarking outcome
