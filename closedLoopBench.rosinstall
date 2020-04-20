@@ -91,7 +91,7 @@
 - git:
     local-name: pips
     uri: git@github.gatech.edu:ivabots/pips.git
-    version: generic-composite
+    version: more-generic # generic-composite
 
 # Core Simulator repos
 
