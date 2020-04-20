@@ -28,7 +28,7 @@ cd ~/catkin_ws/src && git clone https://github.com/ivalab/meta_ClosedLoopBench.g
 cd ~/catkin_ws && wstool init src
 ```
 
-4. Add packages from a `.rosinstall` file (ex. `pips.rosinstall`) to your catkin workspace:
+4. Add packages from `closedLoopBench.rosinstall` to your catkin workspace:
 ```
 wstool merge -t src src/meta_ClosedLoopBench/closedLoopBench.rosinstall
 ```
