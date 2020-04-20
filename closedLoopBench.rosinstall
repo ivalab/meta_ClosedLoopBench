@@ -28,6 +28,10 @@
     uri: 'https://github.com/ivalab/odometry_converter.git'
     version: master
 - git:
+    local-name: gflags_catkin
+    uri: 'https://github.com/ethz-asl/gflags_catkin.git'
+    version: master
+- git:
     local-name: glog_catkin
     uri: 'https://github.com/ethz-asl/glog_catkin.git'
     version: master
@@ -35,6 +39,59 @@
     local-name: catkin_simple
     uri: 'https://github.com/catkin/catkin_simple.git'
     version: master
+
+# Core Planning and Control repos
+
+- git:
+    local-name: delayed_odometry
+    uri: 'https://github.com/ivalab/delayed_odometry.git'
+    version: master 
+
+# TODO switch from gatech github to public
+- git:
+    local-name: trajectory_state_predictor
+    uri: git@github.gatech.edu:ivabots/trajectory_state_predictor.git
+    version: master
+- git:
+    local-name: turtlebot_trajectory_controller
+    uri: git@github.gatech.edu:ivabots/turtlebot_trajectory_controller.git
+    version: generic
+- git:
+    local-name: trajectory_generator
+    uri: git@github.gatech.edu:ivabots/trajectory_generator.git
+    version: static-array
+- git:
+    local-name: pips_trajectory_msgs
+    uri: git@github.gatech.edu:ivabots/pips_trajectory_msgs.git
+    version: master
+- git:
+    local-name: tf2_pips
+    uri: git@github.gatech.edu:ivabots/tf2_pips.git
+    version: master
+- git:
+    local-name: pips_msgs
+    uri: git@github.gatech.edu:ivabots/pips_msgs.git
+    version: master
+- git:
+    local-name: turtlebot_trajectory_testing
+    uri: git@github.gatech.edu:ivabots/turtlebot_trajectory_testing.git
+    version: closeloop
+- git:
+    local-name: pips_trajectory_testing
+    uri: git@github.gatech.edu:ivabots/pips_trajectory_testing.git
+    version: cleanup
+- git:
+    local-name: turtlebot_trajectory_generator
+    uri: git@github.gatech.edu:ivabots/turtlebot_trajectory_generator.git
+    version: cleanup
+- git:
+    local-name: turtlebot_trajectory_functions
+    uri: git@github.gatech.edu:ivabots/turtlebot_trajectory_functions.git
+    version: master
+- git:
+    local-name: pips
+    uri: git@github.gatech.edu:ivabots/pips.git
+    version: generic-composite
 
 # Core Simulator repos
 

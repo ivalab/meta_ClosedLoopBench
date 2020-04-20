@@ -18,23 +18,29 @@ sudo apt-get install python-rosdep  python-wstool  build-essential python-rosins
 
 Note: All following commands should be run from the root of your catkin workspace!
 
-2. Initialize the `wstool` workspace:
+2. Navigate to catkin workspace and initialize the `wstool` workspace:
 ```
-wstool init src
-```
-
-3. Add packages from a `.rosinstall` file (ex. `pips.rosinstall`) to your catkin workspace:
-```
-wstool merge -t src <path to rosinstall file>
+cd ~/catkin_ws/src && git clone https://github.com/ivalab/meta_ClosedLoopBench.git
 ```
 
-4. Download/update all packages managed by wstool:
+3. Initialize the `wstool` workspace:
+```
+cd ~/catkin_ws && wstool init src
+```
+
+4. Add packages from a `.rosinstall` file (ex. `pips.rosinstall`) to your catkin workspace:
+```
+wstool merge -t src src/meta_ClosedLoopBench/closedLoopBench.rosinstall
+```
+
+5. Download/update all packages managed by wstool:
 ```
 wstool update -t src -j20
 rosdep install --from-paths src -i -y
 ```
+Ignore the complaint `turtlebot_trajectory_testing: Cannot locate rosdep definition for [common_rosdeps]`
 
-5. Compile your workspace as usual with `catkin_make` or `catkin build`
+6. Compile your workspace as usual with `catkin_make` or `catkin build`
 
 
 ### Set up the simulator
@@ -47,15 +53,15 @@ https://github.com/ivalab/gazebo_turtlebot_simulator
 ### VI-SLAM systems
 
 By default GF+MSF is included in the meta repo.  Other VI-SLAM systems that has been plugged into the framework include:
-1. msckf_vio 
+1. VINS-Fusion (at the same catkin workspace `~/catkin_ws`)
 ```
-git clone https://github.com/YipuZhao/msckf_vio.git
+cd ~/catkin_ws && git clone https://github.com/YipuZhao/VINS-Fusion.git
 ```
-2. VINS-Fusion
+2. msckf_vio (assuming a seperate catkin workspace `~/msckf_ws` exists)
 ```
-git clone https://github.com/YipuZhao/VINS-Fusion.git
+cd ~/msckf_ws/src && git clone https://github.com/YipuZhao/msckf_vio.git
 ```
-3. SVO
+3. SVO (assuming both `svo_install_ws` and `svo_install_overlay_ws` are properly set-up according to the instruction at http://rpg.ifi.uzh.ch/svo2.html)
 ```
 git clone https://github.com/YipuZhao/rpg_svo_example
 ```
@@ -64,7 +70,7 @@ It also requires the svo binary, which can be downloaded via http://rpg.ifi.uzh.
 
 ### Benchmarking outcome
 
-We have been testing visual-inertial SLAM extensively with the closed-loop benchmarking framework.  A set of examplar evaluation plots are provided:
+We have been testing visual-inertial SLAM extensively with the closed-loop benchmarking framework.  A set of exemplar evaluation plots are provided:
 
 	https://github.com/ivalab/FullResults_ClosedNav
 
