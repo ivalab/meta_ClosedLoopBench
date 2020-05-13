@@ -46,52 +46,50 @@
     local-name: delayed_odometry
     uri: 'https://github.com/ivalab/delayed_odometry.git'
     version: master 
-
-# TODO switch from gatech github to public
 - git:
     local-name: trajectory_state_predictor
-    uri: git@github.gatech.edu:ivabots/trajectory_state_predictor.git
-    version: master
+    uri: https://github.com/ivaROS/trajectory_state_predictor.git
+    version: release
 - git:
     local-name: turtlebot_trajectory_controller
-    uri: git@github.gatech.edu:ivabots/turtlebot_trajectory_controller.git
-    version: generic
+    uri: https://github.com/ivaROS/turtlebot_trajectory_controller.git
+    version: release
 - git:
     local-name: trajectory_generator
-    uri: git@github.gatech.edu:ivabots/trajectory_generator.git
-    version: static-array
+    uri: https://github.com/ivaROS/trajectory_generator.git
+    version: release
 - git:
     local-name: pips_trajectory_msgs
-    uri: git@github.gatech.edu:ivabots/pips_trajectory_msgs.git
-    version: master
+    uri: https://github.com/ivaROS/pips_trajectory_msgs.git
+    version: release
 - git:
     local-name: tf2_pips
-    uri: git@github.gatech.edu:ivabots/tf2_pips.git
-    version: master
+    uri: https://github.com/ivaROS/tf2_pips.git
+    version: release
 - git:
     local-name: pips_msgs
-    uri: git@github.gatech.edu:ivabots/pips_msgs.git
-    version: master
+    uri: https://github.com/ivaROS/pips_msgs.git
+    version: release
 - git:
     local-name: turtlebot_trajectory_testing
-    uri: git@github.gatech.edu:ivabots/turtlebot_trajectory_testing.git
-    version: closeloop
+    uri: https://github.com/ivaROS/turtlebot_trajectory_testing.git
+    version: closeloop-release
 - git:
     local-name: pips_trajectory_testing
-    uri: git@github.gatech.edu:ivabots/pips_trajectory_testing.git
-    version: cleanup
+    uri: https://github.com/ivaROS/pips_trajectory_testing.git
+    version: release
 - git:
     local-name: turtlebot_trajectory_generator
-    uri: git@github.gatech.edu:ivabots/turtlebot_trajectory_generator.git
-    version: cleanup
+    uri: https://github.com/ivaROS/turtlebot_trajectory_generator.git
+    version: release
 - git:
     local-name: turtlebot_trajectory_functions
-    uri: git@github.gatech.edu:ivabots/turtlebot_trajectory_functions.git
-    version: master
+    uri: https://github.com/ivaROS/turtlebot_trajectory_functions.git
+    version: release
 - git:
     local-name: pips
-    uri: git@github.gatech.edu:ivabots/pips.git
-    version: more-generic # generic-composite
+    uri: https://github.com/ivaROS/pips.git
+    version: release
 
 # Core Simulator repos
 
