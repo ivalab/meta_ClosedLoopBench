@@ -82,3 +82,9 @@ More details about the closed-loop benchmarking framework can be found at our IC
 	  journal={IEEE Conference on Robotics and Automation},
 	  year={2020}
 	}
+	
+## Contact information
+
+- Yipu Zhao		yipu.zhao@gatech.edu
+- Justin S. Smith   jssmith@gatech.edu
+- Patricio A. Vela	pvela@gatech.edu
