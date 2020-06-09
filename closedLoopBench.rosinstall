@@ -43,10 +43,6 @@
 # Core Planning and Control repos
 
 - git:
-    local-name: delayed_odometry
-    uri: 'https://github.com/ivalab/delayed_odometry.git'
-    version: master 
-- git:
     local-name: trajectory_state_predictor
     uri: https://github.com/ivaROS/trajectory_state_predictor.git
     version: release
