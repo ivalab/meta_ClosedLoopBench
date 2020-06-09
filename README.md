@@ -1,6 +1,6 @@
 ### What the meta repo is for:
 
-This package is intended to simplify the task of setting up the closed-loop visual-inertial SLAM benchmarking framework (ICRA20).
+This package is intended to simplify the task of setting up the closed-loop visual-inertial SLAM benchmarking framework (ICRA20).  Tested under Ubuntu 16.04 + ROS Kinetic.
 
 We will use `wstool` to manage the relevant packages. `closedLoopBench.rosinstall` defines the core set of catkin packages required by the closed-loop navigation benchmarking framework. 
 
