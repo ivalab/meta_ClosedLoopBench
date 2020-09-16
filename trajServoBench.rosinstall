@@ -13,6 +13,11 @@
     uri: 'https://github.com/ivalab/gf_orb_slam2.git'
     version: catkin_traj_servo
 
+- git:
+    local-name: sparse_stereo_msgs
+    uri: 'git@github.gatech.edu:ivabots/sparse_stereo_msgs.git'
+    version: master
+
 # Core Sensor Fusion repos
     
 - git:
@@ -49,7 +54,7 @@
 - git:
     local-name: turtlebot_trajectory_controller
     uri: https://github.com/ivaROS/turtlebot_trajectory_controller.git
-    version: release
+    version: traj_servo
 - git:
     local-name: trajectory_generator
     uri: https://github.com/ivaROS/trajectory_generator.git
@@ -69,7 +74,7 @@
 - git:
     local-name: turtlebot_trajectory_testing
     uri: https://github.com/ivaROS/turtlebot_trajectory_testing.git
-    version: closeloop-release
+    version: traj_servo
 - git:
     local-name: pips_trajectory_testing
     uri: https://github.com/ivaROS/pips_trajectory_testing.git
@@ -109,3 +114,10 @@
     local-name: kobuki
     uri: 'https://github.com/ivalab/kobuki.git'
     version: kinetic
+
+# Trajectory servoing
+
+- git:
+    local-name: trajectory_servoing_benchmark
+    uri: 'git@github.gatech.edu:ivabots/trajectory_servoing_benchmark.git'
+    version: master
