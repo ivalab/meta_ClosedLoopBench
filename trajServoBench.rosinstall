@@ -15,7 +15,7 @@
 
 - git:
     local-name: sparse_stereo_msgs
-    uri: 'git@github.gatech.edu:ivabots/sparse_stereo_msgs.git'
+    uri: 'https://github.gatech.edu/ivabots/sparse_stereo_msgs.git'
     version: master
 
 # Core Sensor Fusion repos
@@ -119,5 +119,5 @@
 
 - git:
     local-name: trajectory_servoing_benchmark
-    uri: 'git@github.gatech.edu:ivabots/trajectory_servoing_benchmark.git'
+    uri: 'https://github.gatech.edu/ivabots//trajectory_servoing_benchmark.git'
     version: master
