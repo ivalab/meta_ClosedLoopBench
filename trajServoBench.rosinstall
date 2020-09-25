@@ -125,4 +125,4 @@
 - git:
     local-name: trajectory_servoing
     uri: 'git@github.gatech.edu:ivabots/trajectory_servoing.git'
-    version: trajectory_servoing_benchmark
+    version: trajectory_servoing_benchmark_subclass
