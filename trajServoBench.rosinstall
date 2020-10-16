@@ -18,6 +18,11 @@
     uri: 'git@github.gatech.edu:ivabots/sparse_stereo_msgs.git'
     version: master
 
+- git:
+    local-name: sparse_stereo_msgs
+    uri: 'git@github.gatech.edu:ivabots/sparse_stereo.git'
+    version: traj_servo_testing
+
 # Core Sensor Fusion repos
     
 - git:
@@ -97,7 +102,7 @@
 - git:
     local-name: tsrb_world
     uri: 'https://github.com/ivalab/tsrb_world.git'
-    version: master
+    version: traj_servo
 - git:
     local-name: gazebo_turtlebot_simulator
     uri: 'https://github.com/ivalab/gazebo_turtlebot_simulator.git'
