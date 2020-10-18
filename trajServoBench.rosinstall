@@ -19,7 +19,7 @@
     version: master
 
 - git:
-    local-name: sparse_stereo_msgs
+    local-name: sparse_stereo
     uri: 'git@github.gatech.edu:ivabots/sparse_stereo.git'
     version: traj_servo_testing
 
