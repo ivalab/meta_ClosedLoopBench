@@ -55,7 +55,7 @@
 - git:
     local-name: trajectory_state_predictor
     uri: https://github.com/ivaROS/trajectory_state_predictor.git
-    version: release
+    version: traj_servo
 - git:
     local-name: turtlebot_trajectory_controller
     uri: https://github.com/ivaROS/turtlebot_trajectory_controller.git
@@ -76,6 +76,10 @@
     local-name: pips_msgs
     uri: https://github.com/ivaROS/pips_msgs.git
     version: release
+- git:
+    local-name: pips_visualization
+    uri: git@github.gatech.edu:ivabots/pips_visualization.git
+    version: master
 - git:
     local-name: turtlebot_trajectory_testing
     uri: https://github.com/ivaROS/turtlebot_trajectory_testing.git
@@ -125,9 +129,9 @@
 - git:
     local-name: trajectory_servoing_benchmark
     uri: 'git@github.gatech.edu:ivabots/trajectory_servoing_benchmark.git'
-    version: master
+    version: uncertainty_benchmark
 
 - git:
     local-name: trajectory_servoing
     uri: 'git@github.gatech.edu:ivabots/trajectory_servoing.git'
-    version: trajectory_servoing_benchmark_subclass
+    version: no_feature_tracking
