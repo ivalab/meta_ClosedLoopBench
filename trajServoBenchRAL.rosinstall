@@ -1,0 +1,137 @@
+# Core SLAM repos
+
+- git:
+    local-name: vision_opencv
+    uri: 'https://github.com/ivalab/vision_opencv.git'
+    version: kinetic_traj_servo
+- git:
+    local-name: ORB_Data
+    uri: 'https://github.com/ivalab/ORB_Data.git'
+    version: master
+- git:
+    local-name: gf_orb_slam2
+    uri: 'https://github.com/ivalab/gf_orb_slam2.git'
+    version: catkin_traj_servo
+
+- git:
+    local-name: sparse_stereo_msgs
+    uri: 'git@github.gatech.edu:ivabots/sparse_stereo_msgs.git'
+    version: master
+
+- git:
+    local-name: sparse_stereo
+    uri: 'git@github.gatech.edu:ivabots/sparse_stereo.git'
+    version: traj_servo_testing
+
+# Core Sensor Fusion repos
+    
+- git:
+    local-name: delayed_odometry
+    uri: 'https://github.com/ivalab/delayed_odometry.git'
+    version: master
+- git:
+    local-name: ethzasl_msf
+    uri: 'https://github.com/ivalab/ethzasl_msf.git'
+    version: master
+- git:
+    local-name: odometry_converter
+    uri: 'https://github.com/ivalab/odometry_converter.git'
+    version: master
+- git:
+    local-name: gflags_catkin
+    uri: 'https://github.com/ethz-asl/gflags_catkin.git'
+    version: master
+- git:
+    local-name: glog_catkin
+    uri: 'https://github.com/ethz-asl/glog_catkin.git'
+    version: master
+- git:
+    local-name: catkin_simple
+    uri: 'https://github.com/catkin/catkin_simple.git'
+    version: master
+
+# Core Planning and Control repos
+
+- git:
+    local-name: trajectory_state_predictor
+    uri: https://github.com/ivaROS/trajectory_state_predictor.git
+    version: traj_servo
+- git:
+    local-name: turtlebot_trajectory_controller
+    uri: https://github.com/ivaROS/turtlebot_trajectory_controller.git
+    version: traj_servo
+- git:
+    local-name: trajectory_generator
+    uri: https://github.com/ivaROS/trajectory_generator.git
+    version: release
+- git:
+    local-name: pips_trajectory_msgs
+    uri: https://github.com/ivaROS/pips_trajectory_msgs.git
+    version: release
+- git:
+    local-name: tf2_pips
+    uri: https://github.com/ivaROS/tf2_pips.git
+    version: release
+- git:
+    local-name: pips_msgs
+    uri: https://github.com/ivaROS/pips_msgs.git
+    version: release
+- git:
+    local-name: pips_visualization
+    uri: git@github.gatech.edu:ivabots/pips_visualization.git
+    version: master
+- git:
+    local-name: turtlebot_trajectory_testing
+    uri: https://github.com/ivaROS/turtlebot_trajectory_testing.git
+    version: traj_servo
+- git:
+    local-name: pips_trajectory_testing
+    uri: https://github.com/ivaROS/pips_trajectory_testing.git
+    version: release
+- git:
+    local-name: turtlebot_trajectory_generator
+    uri: https://github.com/ivaROS/turtlebot_trajectory_generator.git
+    version: release
+- git:
+    local-name: turtlebot_trajectory_functions
+    uri: https://github.com/ivaROS/turtlebot_trajectory_functions.git
+    version: release
+- git:
+    local-name: pips
+    uri: https://github.com/ivaROS/pips.git
+    version: release
+
+# Core Simulator repos
+
+- git:
+    local-name: tsrb_world
+    uri: 'https://github.com/ivalab/tsrb_world.git'
+    version: traj_servo
+- git:
+    local-name: gazebo_turtlebot_simulator
+    uri: 'https://github.com/ivalab/gazebo_turtlebot_simulator.git'
+    version: master
+- git:
+    local-name: gazebo_utils
+    uri: 'https://github.com/ivalab/gazebo_utils.git'
+    version: master
+- git:
+    local-name: turtlebot
+    uri: 'https://github.com/ivalab/turtlebot.git'
+    version: kinetic
+- git:
+    local-name: kobuki
+    uri: 'https://github.com/ivalab/kobuki.git'
+    version: kinetic
+
+# Trajectory servoing
+
+- git:
+    local-name: trajectory_servoing_benchmark
+    uri: 'git@github.gatech.edu:ivabots/trajectory_servoing_benchmark.git'
+    version: ral
+
+- git:
+    local-name: trajectory_servoing
+    uri: 'git@github.gatech.edu:ivabots/trajectory_servoing.git'
+    version: no_feature_tracking
