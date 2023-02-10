@@ -10,6 +10,14 @@ sudo apt-get install python3-rosdep  python3-wstool  build-essential python3-ros
 ```bash
 # ros navigation stack
 sudo apt-get install ros-noetic-navigation
+
+# other ros packages
+sudo apt install ros-noetic-kobuki-msgs ros-noetic-kobuki-dock-drive ros-noetic-kobuki-driver
+sudo apt install ros-noetic-ecl-threads ros-noetic-ecl-geometry ros-noetic-ecl-streams
+sudo apt install ros-noetic-joy
+
+# qt
+sudo apt install pyqt5-dev-tools
 ````
 
 
