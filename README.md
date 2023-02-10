@@ -4,7 +4,7 @@ Following is a general series of steps to accomplish the most common tasks with 
 
 1. Install the `wstool`:
 ```
-sudo apt-get install python-rosdep  python-wstool  build-essential python-rosinstall-generator python-rosinstall
+sudo apt-get install python3-rosdep  python3-wstool  build-essential python3-rosinstall-generator python3-rosinstall
 ```
 
 ```bash
