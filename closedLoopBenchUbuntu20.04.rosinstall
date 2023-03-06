@@ -42,7 +42,7 @@
 - git:
     local-name: trajectory_state_predictor
     uri: https://github.com/ivaROS/trajectory_state_predictor.git
-    version: release
+    version: noetic/roboslam
 - git:
     local-name: turtlebot_trajectory_controller
     uri: https://github.com/ivaROS/turtlebot_trajectory_controller.git
