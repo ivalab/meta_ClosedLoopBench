@@ -1,0 +1,207 @@
+# Core SLAM repos
+
+- git:
+    local-name: ORB_Data
+    uri: 'https://github.com/ivalab/ORB_Data.git'
+    version: master
+- git:
+    local-name: gf_orb_slam2
+    uri: 'https://github.com/ivalab/gf_orb_slam2.git'
+    version: catkin_traj_servo
+
+- git:
+    local-name: sparse_stereo_msgs
+    uri: 'git@github.gatech.edu:ivabots/sparse_stereo_msgs.git'
+    version: master
+
+- git:
+    local-name: sparse_stereo
+    uri: 'git@github.gatech.edu:ivabots/sparse_stereo.git'
+    version: traj_servo_testing
+
+# Core Sensor Fusion repos
+    
+- git:
+    local-name: delayed_odometry
+    uri: 'https://github.com/ivalab/delayed_odometry.git'
+    version: master
+- git:
+    local-name: ethzasl_msf
+    uri: 'https://github.com/ivalab/ethzasl_msf.git'
+    version: master
+- git:
+    local-name: odometry_converter
+    uri: 'https://github.com/ivalab/odometry_converter.git'
+    version: master
+- git:
+    local-name: gflags_catkin
+    uri: 'https://github.com/ethz-asl/gflags_catkin.git'
+    version: master
+- git:
+    local-name: glog_catkin
+    uri: 'https://github.com/ethz-asl/glog_catkin.git'
+    version: master
+- git:
+    local-name: catkin_simple
+    uri: 'https://github.com/catkin/catkin_simple.git'
+    version: master
+
+# Core Planning and Control repos
+
+- git:
+    local-name: trajectory_state_predictor
+    uri: https://github.com/ivaROS/trajectory_state_predictor.git
+    version: traj_servo
+- git:
+    local-name: turtlebot_trajectory_controller
+    uri: https://github.com/ivaROS/turtlebot_trajectory_controller.git
+    version: traj_servo
+- git:
+    local-name: trajectory_generator
+    uri: https://github.com/ivaROS/trajectory_generator.git
+    version: traj_servo
+- git:
+    local-name: pips_trajectory_msgs
+    uri: https://github.com/ivaROS/pips_trajectory_msgs.git
+    version: release
+- git:
+    local-name: tf2_pips
+    uri: https://github.com/ivaROS/tf2_pips.git
+    version: release
+- git:
+    local-name: pips_msgs
+    uri: https://github.com/ivaROS/pips_msgs.git
+    version: release
+- git:
+    local-name: pips_visualization
+    uri: git@github.gatech.edu:ivabots/pips_visualization.git
+    version: master
+- git:
+    local-name: turtlebot_trajectory_testing
+    uri: https://github.com/ivaROS/turtlebot_trajectory_testing.git
+    version: traj_servo
+- git:
+    local-name: pips_trajectory_testing
+    uri: https://github.com/ivaROS/pips_trajectory_testing.git
+    version: traj_servo
+- git:
+    local-name: turtlebot_trajectory_generator
+    uri: https://github.com/ivaROS/turtlebot_trajectory_generator.git
+    version: release
+- git:
+    local-name: turtlebot_trajectory_functions
+    uri: https://github.com/ivaROS/turtlebot_trajectory_functions.git
+    version: release
+- git:
+    local-name: pips
+    uri: https://github.com/ivaROS/pips.git
+    version: traj_servo
+- git:
+    local-name: turtlebot_path_following
+    uri: git@github.gatech.edu:ivabots/turtlebot_path_following.git
+    version: general_structure
+- git:
+    local-name: trajectory_based_local_planner
+    uri: git@github.gatech.edu:ivabots/trajectory_based_local_planner.git
+    version: master
+- git:
+    local-name: stixel
+    uri: git@github.gatech.edu:ivabots/stixel.git
+    version: dp_modified
+- git:
+    local-name: pips_dwa
+    uri: git@github.gatech.edu:ivabots/pips_dwa.git
+    version: stixel_pips_orig
+- git:
+    local-name: move_base_virtual
+    uri: git@github.gatech.edu:ivabots/move_base_virtual.git
+    version: master
+- git:
+    local-name: heading_cost_function
+    uri: git@github.gatech.edu:ivabots/heading_cost_function.git
+    version: master
+
+# Core Simulator repos
+
+- git:
+    local-name: tsrb_world
+    uri: 'https://github.com/ivalab/tsrb_world.git'
+    version: traj_servo
+- git:
+    local-name: gazebo_turtlebot_simulator
+    uri: 'https://github.com/ivalab/gazebo_turtlebot_simulator.git'
+    version: feature/ubuntu20.04
+- git:
+    local-name: gazebo_utils
+    uri: 'https://github.com/ivalab/gazebo_utils.git'
+    version: master
+- git:
+    local-name: navigation_test
+    uri: git@github.gatech.edu:ivabots/navigation_test.git
+    version: sparse_nav
+- git:
+    local-name: gazebo_fake_localization
+    uri: git@github.com:TurtlebotAdventures/gazebo_fake_localization.git
+    version: master
+- git:
+    local-name: depthimage_to_laserscan
+    uri: git@github.gatech.edu:ivabots/depthimage_to_laserscan.git
+    version: master
+- git:
+    local-name: egocircle
+    uri: git@github.gatech.edu:ivabots/egocircle.git
+    version: master
+- git:
+    local-name: egocircle_utils
+    uri: git@github.gatech.edu:ivabots/egocircle_utils.git
+    version: master
+- git:
+    local-name: egocylindrical
+    uri: git@github.gatech.edu:ivabots/egocylindrical.git
+    version: stereo
+- git:
+    local-name: customized_rotate_recovery
+    uri: git@github.gatech.edu:ivabots/customized_rotate_recovery.git
+    version: master
+
+# Trajectory servoing
+
+- git:
+    local-name: trajectory_servoing_benchmark
+    uri: 'git@github.gatech.edu:ivabots/trajectory_servoing_benchmark.git'
+    version: potential_gap_nav
+- git:
+    local-name: trajectory_servoing
+    uri: 'git@github.gatech.edu:ivabots/trajectory_servoing.git'
+    version: incremental_trajservo
+- git:
+    local-name: trajectory_servoing_real_exp
+    uri: git@github.gatech.edu:ivabots/trajectory_servoing_real_exp.git
+    version: master
+- git:
+    local-name: trajectory_servoing_controller
+    uri: git@github.gatech.edu:ivabots/trajectory_servoing_controller.git
+    version: main
+
+# Potential gap
+
+- git:
+    local-name: potential_gap
+    uri: git@github.gatech.edu:ivabots/potential_gap.git
+    version: gpf_compatible_local_ts
+- git:
+    local-name: potential_gap_collision_checking
+    uri: git@github.gatech.edu:ivabots/potential_gap_collision_checking.git
+    version: master
+- git:
+    local-name: potential_gap_path_following
+    uri: git@github.gatech.edu:ivabots/potential_gap_path_following.git
+    version: master
+- git:
+    local-name: potential_gap_trajectory_controller
+    uri: git@github.gatech.edu:ivabots/potential_gap_trajectory_controller.git
+    version: master
+- git:
+    local-name: potential_gap_trajectory_servoing
+    uri: git@github.gatech.edu:ivabots/potential_gap_trajectory_servoing.git
+    version: main
