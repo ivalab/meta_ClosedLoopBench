@@ -141,8 +141,8 @@
     version: sparse_nav
 - git:
     local-name: gazebo_fake_localization
-    uri: git@github.com:TurtlebotAdventures/gazebo_fake_localization.git
-    version: master
+    uri: https://github.com/TurtlebotAdventures/gazebo_fake_localization.git
+    version: fix_tf_warning
 - git:
     local-name: depthimage_to_laserscan
     uri: git@github.gatech.edu:ivabots/depthimage_to_laserscan.git
