@@ -7,7 +7,7 @@
 - git:
     local-name: gf_orb_slam2
     uri: 'https://github.com/ivalab/gf_orb_slam2.git'
-    version: catkin_traj_servo
+    version: noetic/catkin_traj_servo
 
 - git:
     local-name: sparse_stereo_msgs
