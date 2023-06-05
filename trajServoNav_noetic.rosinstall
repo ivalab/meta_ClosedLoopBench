@@ -79,7 +79,7 @@
 - git:
     local-name: turtlebot_trajectory_testing
     uri: git@github.gatech.edu:ivabots/turtlebot_trajectory_testing.git
-    version: noetic/tfm
+    version: noetic/tfm_traj_servo
 - git:
     local-name: pips_trajectory_testing
     uri: git@github.gatech.edu:ivabots/pips_trajectory_testing.git
