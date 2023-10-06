@@ -49,6 +49,10 @@
 # Core Planning and Control repos
 
 - git:
+    local-name: cubic_spline_smoother
+    uri: git@github.gatech.edu:ivabots/cubic_spline_smoother.git
+    version: main
+- git:
     local-name: trajectory_state_predictor
     uri: https://github.com/ivaROS/trajectory_state_predictor.git
     version: traj_servo
