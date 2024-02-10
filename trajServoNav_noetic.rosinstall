@@ -142,7 +142,7 @@
 - git:
     local-name: navigation_test
     uri: git@github.gatech.edu:ivabots/navigation_test.git
-    version: sparse_nav_python3_fast
+    version: noetic/traj_servo
 - git:
     local-name: gazebo_fake_localization
     uri: https://github.com/TurtlebotAdventures/gazebo_fake_localization.git
@@ -163,6 +163,10 @@
     local-name: egocylindrical
     uri: git@github.gatech.edu:ivabots/egocylindrical.git
     version: noetic/stereo_hybrid_frame
+- git:
+    local-name: egocylindrical_path_following
+    uri: git@github.gatech.edu:ivabots/egocylindrical_path_following.git
+    version: noetic/tfm
 - git:
     local-name: pips_egocylindrical
     uri: git@github.gatech.edu:ivabots/pips_egocylindrical.git
