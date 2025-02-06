@@ -77,11 +77,11 @@ cd ~/closedloop_ws && wstool init src
 	```bash
 	cd ~/closedloop_ws/src && https://github.com/ivalab/gf_orb_slam2.git -b feature/ubuntu20.04
 	```
-2. [DSOL](https://github.com/ivalab/dsol.git)(at the same catkin workspace `~/closedloop_ws`)
+2. [DSOL](https://github.com/ivalab/dsol/tree/v1.0)(at the same catkin workspace `~/closedloop_ws`)
 
-3. [ORB-SLAM2](https://github.com/ivalab/ORB_SLAM2) (at the same catkin workspace `~/closedloop_ws`)
+3. [ORB-SLAM2](https://github.com/ivalab/ORB_SLAM2/tree/v1.0) (at the same catkin workspace `~/closedloop_ws`)
 
-4. [ORB-SLAM3](https://github.com/ivalab/ORB_SLAM3.git) (at the same catkin workspace `~/closedloop_ws`)
+4. [ORB-SLAM3](https://github.com/ivalab/ORB_SLAM3/tree/cl_tt_benchmark) (at the same catkin workspace `~/closedloop_ws`)
 
 5. [SVO2.0](https://github.gatech.edu/RoboSLAM/rpg_svo_pro_open) (at a different catkin workspace `~/svo_ws`)
 
